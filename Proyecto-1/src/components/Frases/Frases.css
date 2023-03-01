@@ -1,0 +1,130 @@
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.frase_letter {
+  font-size: 2rem;
+}
+.frase_autor {
+  font-size: 1.3rem;
+  border-color: #075408;
+}
+.frase_btn button {
+  font-size: 1.5rem;
+  width: 90px;
+  height: 45px;
+  background-color: #ABB2B9;
+  top: 50%;
+  left: 50%;
+  border-radius: 200px;
+}
+//Medias query
+
+@media (max-width: 990px) {
+  .yeii{
+    padding:0% 0px 0px 0px;
+  }
+  .frase_letter {
+    font-size: 2rem;
+  }
+  .frase_autor {
+    font-size: 1.7rem;
+    border-color: #075408;
+  }
+  .frase_btn button {
+    font-size: 1.5rem;
+    width: 90px;
+    height: 65px;
+    background-color: #ABB2B9;
+    top: 20%;
+    left: 50%;
+    border-radius: 40px;
+  }
+}
+
+@media(max-width: 576px){
+  section{
+    margin-top:30px
+  }
+  .frase_letter {
+    font-size: 1.7rem;
+  }
+  .frase_autor {
+    font-size:1.4rem;
+    border-color: #075408;
+  }
+  .frase_btn button {
+    font-size: 1.4rem;
+    width: 80px;
+    height: 55px;
+    background-color: #ABB2B9;
+    top: 50%;
+    left: 50%;
+    border-radius: 50px;
+  }
+}
+
+@media(max-width: 320px){
+  .frase_letter {
+    font-size: 1.5rem;
+  }
+  .frase_autor {
+    font-size: 1.3rem;
+    border-color: #075408;
+  }
+  .frase_btn button {
+    font-size: 1.3rem;
+    width: 90px;
+    height: 45px;
+    background-color: #ABB2B9;
+    top: 50%;
+    left: 50%;
+    border-radius: 200px;
+  }
+}
+
+
+.img1 {
+  background-image: url("../../components/Frases/background/imagenes/1.jpg");
+}
+.img2 {
+  background-image: url("../../components/Frases/background/imagenes/2.png");
+}
+.img3 {
+  background-image: url("../../components/Frases/background/imagenes/3.png");
+}
+.img4 {
+  background-image: url("../../components/Frases/background/imagenes/4.jpg");
+}
+.img5 {
+  background-image: url("../../components/Frases/background/imagenes/5.jpg");
+}
+.img6 {
+  background-image: url("../../components/Frases/background/imagenes/6.jpg");
+}
+.img7 {
+  background-image: url("../../components/Frases/background/imagenes/7.jpg");
+}
+.img8 {
+  background-image: url("../../components/Frases/background/imagenes/8.png");
+}
+.img9 {
+  background-image: url("../../components/Frases/background/imagenes/9.jpg");
+}
+.img10 {
+  background-image: url("../../components/Frases/background/imagenes/10.jpg");
+}
+.img11 {
+  background-image: url("../../components/Frases/background/imagenes/11.jpg");
+}
+.img12 {
+  background-image: url("../../components/Frases/background/imagenes/12.png");
+}
+.img13 {
+  background-image: url("../../components/Frases/background/imagenes/13.jpg");
+}
+.img14 {
+  background-image: url("../../components/Frases/background/imagenes/4.jpg");
+}
