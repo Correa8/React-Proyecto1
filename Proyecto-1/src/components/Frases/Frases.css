@@ -15,16 +15,15 @@
   font-size: 1.5rem;
   width: 90px;
   height: 45px;
-  background-color: #ABB2B9;
+  background-color: #abb2b9;
   top: 50%;
   left: 50%;
   border-radius: 200px;
 }
-//Medias query
 
 @media (max-width: 990px) {
-  .yeii{
-    padding:0% 0px 0px 0px;
+  .yeii {
+    padding: 0% 0px 0px 0px;
   }
   .frase_letter {
     font-size: 2rem;
@@ -37,36 +36,36 @@
     font-size: 1.5rem;
     width: 90px;
     height: 65px;
-    background-color: #ABB2B9;
+    background-color: #abb2b9;
     top: 20%;
     left: 50%;
     border-radius: 40px;
   }
 }
 
-@media(max-width: 576px){
-  section{
-    margin-top:30px
+@media (max-width: 576px) {
+  section {
+    margin-top: 30px;
   }
   .frase_letter {
     font-size: 1.7rem;
   }
   .frase_autor {
-    font-size:1.4rem;
+    font-size: 1.4rem;
     border-color: #075408;
   }
   .frase_btn button {
     font-size: 1.4rem;
     width: 80px;
     height: 55px;
-    background-color: #ABB2B9;
+    background-color: #abb2b9;
     top: 50%;
     left: 50%;
     border-radius: 50px;
   }
 }
 
-@media(max-width: 320px){
+@media (max-width: 320px) {
   .frase_letter {
     font-size: 1.5rem;
   }
@@ -78,13 +77,12 @@
     font-size: 1.3rem;
     width: 90px;
     height: 45px;
-    background-color: #ABB2B9;
+    background-color: #abb2b9;
     top: 50%;
     left: 50%;
     border-radius: 200px;
   }
 }
-
 
 .img1 {
   background-image: url("../../components/Frases/background/imagenes/1.jpg");
