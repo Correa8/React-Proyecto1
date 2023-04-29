@@ -12,11 +12,12 @@
   opacity: 78%;
 }
 .all h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #11354c;
+  background-color: rgba(240, 248, 255, 0.247);
 }
+/* //Medias query */
 
-//Medias query
 @media (max-width: 1200px) {
   .all div {
     background-size: 100% 100%;

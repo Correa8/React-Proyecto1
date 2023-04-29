@@ -2,23 +2,30 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .frase_letter {
   font-size: 2rem;
+  margin: 10px;
 }
 .frase_autor {
   font-size: 1.3rem;
   border-color: #075408;
 }
 .frase_btn button {
-  font-size: 1.5rem;
-  width: 90px;
-  height: 45px;
+  font-size: 2rem;
+  width: 120px;
+  height: 70px;
   background-color: #abb2b9;
-  top: 50%;
+  top: 100%;
   left: 50%;
-  border-radius: 200px;
+  border-radius: 40px;
+}
+.yeii {
+  border: 1px solid black;
+  position: relative;
+  background-color: rgba(116, 236, 236, 0.5);
 }
 
 @media (max-width: 990px) {
@@ -27,6 +34,7 @@
   }
   .frase_letter {
     font-size: 2rem;
+    margin: 0;
   }
   .frase_autor {
     font-size: 1.7rem;
@@ -36,7 +44,7 @@
     font-size: 1.5rem;
     width: 90px;
     height: 65px;
-    background-color: #abb2b9;
+    background-color: #abb2b900;
     top: 20%;
     left: 50%;
     border-radius: 40px;
@@ -125,4 +133,13 @@
 }
 .img14 {
   background-image: url("../../components/Frases/background/imagenes/4.jpg");
+}
+.img15 {
+  background-image: url("../../components/Frases/background/imagenes/15.jpg");
+}
+.img16 {
+  background-image: url("../../components/Frases/background/imagenes/16.jpg");
+}
+.img17 {
+  background-image: url("../../components/Frases/background/imagenes/17.jpg");
 }
